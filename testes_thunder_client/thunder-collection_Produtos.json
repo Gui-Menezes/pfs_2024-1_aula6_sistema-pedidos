@@ -1,0 +1,79 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Produtos",
+    "dateExported": "2024-04-11T00:53:18.295Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5c469d5a-91fb-4980-9792-084d37901fc4",
+            "colId": "10bd6edb-c4f0-4fef-b943-c14b870fed4d",
+            "containerId": "",
+            "name": "GET produtos",
+            "url": "",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-11T00:44:12.123Z",
+            "modified": "2024-04-11T00:44:12.123Z",
+            "headers": []
+        },
+        {
+            "_id": "63aa876b-ba04-4462-b3db-636d337405da",
+            "colId": "10bd6edb-c4f0-4fef-b943-c14b870fed4d",
+            "containerId": "",
+            "name": "GET produtos",
+            "url": "localhost:1337/api/produtos?populate=*",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-11T00:44:19.858Z",
+            "modified": "2024-04-11T00:50:02.460Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "populate",
+                    "value": "*",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "242369da-8084-4fd2-a666-b35b3e3b0a3a",
+            "colId": "10bd6edb-c4f0-4fef-b943-c14b870fed4d",
+            "containerId": "",
+            "name": "GET imagens",
+            "url": "",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-11T00:49:13.601Z",
+            "modified": "2024-04-11T00:49:13.601Z",
+            "headers": []
+        },
+        {
+            "_id": "d0d54759-3cdf-4362-a264-cf302db70585",
+            "colId": "10bd6edb-c4f0-4fef-b943-c14b870fed4d",
+            "containerId": "",
+            "name": "GET imagens",
+            "url": "",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-11T00:49:18.130Z",
+            "modified": "2024-04-11T00:49:18.130Z",
+            "headers": []
+        },
+        {
+            "_id": "737ee698-110c-420e-8b21-28477beae738",
+            "colId": "10bd6edb-c4f0-4fef-b943-c14b870fed4d",
+            "containerId": "",
+            "name": "GET imagens",
+            "url": "localhost:1337/uploads/thumbnail_arroz_camil_7169e560de.jpg",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-04-11T00:50:07.777Z",
+            "modified": "2024-04-11T00:50:26.563Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

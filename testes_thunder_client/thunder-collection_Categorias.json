@@ -1,0 +1,68 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Categorias",
+    "dateExported": "2024-04-11T00:52:39.887Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2f5dfd5c-bf40-4b34-9b8c-88b204966399",
+            "colId": "4d535d6a-05ad-42b2-875e-246e3497db19",
+            "containerId": "",
+            "name": "GET categorias",
+            "url": "localhost:1337/api/categorias",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-11T00:33:41.858Z",
+            "modified": "2024-04-11T00:34:23.115Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2927574f-8bd5-4d3d-bf29-7996d9070629",
+            "colId": "4d535d6a-05ad-42b2-875e-246e3497db19",
+            "containerId": "",
+            "name": "GET BY ID categorias",
+            "url": "",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-11T00:38:43.722Z",
+            "modified": "2024-04-11T00:38:43.722Z",
+            "headers": []
+        },
+        {
+            "_id": "ad6289af-ac21-4e08-80b0-d96bb945c359",
+            "colId": "4d535d6a-05ad-42b2-875e-246e3497db19",
+            "containerId": "",
+            "name": "GET BY ID categorias",
+            "url": "localhost:1337/api/categorias/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-11T00:38:55.473Z",
+            "modified": "2024-04-11T00:39:05.592Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fcd9eede-68f5-4be4-bf8c-af7066bb3614",
+            "colId": "4d535d6a-05ad-42b2-875e-246e3497db19",
+            "containerId": "",
+            "name": "POST categorias",
+            "url": "localhost:1337/api/categorias",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-04-11T00:39:41.330Z",
+            "modified": "2024-04-11T00:42:11.404Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"data\": {\n    \"nome\": \"higiene\"\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
